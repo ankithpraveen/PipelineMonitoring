@@ -1,9 +1,3 @@
-# PipelineMonitoring
-
-Certainly! Here's a GitHub README file content for your Python script:
-
----
-
 # Pipeline Monitoring Dashboard
 
 This repository contains a Dash-based web application for monitoring pipelines in a SingleStore database. The dashboard provides real-time insights into data ingestion, file states, pipeline configuration, and ingestion lag.
