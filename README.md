@@ -95,6 +95,6 @@ The dashboard will be available at `http://0.0.0.0:8050`.
 
 The application logs are set to the INFO level and will display in the console. Adjust the logging level as needed in the `logging.basicConfig` call.
 
+---
 For any questions or suggestions, please contact [hagarwal@singlestore.com] or [apraveen@singlestore.com].
 
----
