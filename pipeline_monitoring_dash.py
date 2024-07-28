@@ -35,7 +35,7 @@ if process and process.pid != os.getpid():
 
 # SQLAlchemy connection setup
 def create_db_connection():
-    return s2.connect('admin:Password@123@svc-8b702bb0-42d6-4cf9-bf15-5453c5940519-dml.aws-mumbai-1.svc.singlestore.com:3306')
+    return s2.connect('<ADD CONNECTION STRING HERE>')
 
 # Function to get list of databases
 def get_databases():
