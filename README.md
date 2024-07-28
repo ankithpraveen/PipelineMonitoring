@@ -14,7 +14,7 @@ This repository contains a Dash-based web application for monitoring pipelines i
 - **Data Ingestion Speed**: Displays the ingestion speed in different units (Rows/sec, KBs/sec, Batches/sec) using a gauge.
 - **File State Visualization**: Shows the state of the files ingested by the pipeline in a pie chart.
 - **Pipeline Configuration Details**: Displays the configuration details of the selected pipeline.
-- **Ingestion Lag**: Shows the current ingestion lag.
+- **Ingestion Lag**: Shows the current ingestion lag in pipeline cursors.
 - **Error Details**: Allows users to view error details for skipped files.
 
 ## Prerequisites
@@ -60,7 +60,7 @@ pip install dash pandas sqlalchemy psutil singlestoredb plotly dash-daq
 To run the application, execute:
 
 ```sh
-python app.py
+python pipeline_monitoring_dash.py
 ```
 
 The dashboard will be available at `http://0.0.0.0:8050`.
@@ -101,17 +101,7 @@ The dashboard will be available at `http://0.0.0.0:8050`.
 
 The application logs are set to the INFO level and will display in the console. Adjust the logging level as needed in the `logging.basicConfig` call.
 
-## Contributing
-
-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contact
-
-For any questions or suggestions, please contact [your-email@example.com].
+For any questions or suggestions, please contact [hagarwal@singlestore.com] or [apraveen@singlestore.com].
 
 ---
 
