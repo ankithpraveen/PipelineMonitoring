@@ -98,5 +98,3 @@ The application logs are set to the INFO level and will display in the console. 
 For any questions or suggestions, please contact [hagarwal@singlestore.com] or [apraveen@singlestore.com].
 
 ---
-
-Feel free to customize the README further according to your specific requirements or preferences.
